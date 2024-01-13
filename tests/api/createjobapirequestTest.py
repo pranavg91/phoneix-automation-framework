@@ -59,7 +59,7 @@ def test_create_job():
 
     response=requests.post(base_url,headers=headers,json= payload)
     print(response.status_code)
-    assert response.status_code == 200
-    assert "data" in response.text
-    
+    assert response.status_code == 200,f"Expected status code is 200,but got {response.status_code}"
+    assert "data" in response.json(),"Response does not contain 'data' field"
+
     
