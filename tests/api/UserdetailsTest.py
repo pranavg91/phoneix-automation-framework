@@ -13,6 +13,5 @@ payload ={
 
 def test_user_details_api():
     response=APIUtil.make_get_request("userdetails",headers)
-    return response
     print(response.json())
     assert response.status_code == 200
