@@ -1,0 +1,28 @@
+Task 1 
+base url : ini files---hardcoded values needs to removed
+
+Task2:  
+token hardocded: 
+Method in APIUtil: 
+will return token when 
+@staticMethod
+def getToken(role):
+    api reques
+    return token
+
+Task3: smoke sanity smoke e2e regression
+pytest fixtures
+
+
+task4: 
+
+API :
+response body
+schema
+respone time
+status code
+
+task 4:  sys.path.append("C:/Users/Toto/Desktop/Phoenixautomationframework/")  fixed!!
+
+
+Jenkins!!!!
