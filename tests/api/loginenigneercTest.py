@@ -15,3 +15,4 @@ payload={
 def test_login_engineer_user():
     response = APIUtil.make_post_request("login", payload, headers)
     print(response.status_code)
+    assert response.status_code == 200
